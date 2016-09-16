@@ -1,0 +1,26 @@
+{
+  "name": "mongoose-mixed-functions",
+  "version": "1.0.0",
+  "description": "Allows you to define functions as both static and methods so you dont repeat yourself",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spearmootz/mongoose-mixed-functions.git"
+  },
+  "keywords": [
+    "mongoose",
+    "plugin",
+    "mixed",
+    "functions",
+    "dual"
+  ],
+  "author": "Ricardo Spear",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spearmootz/mongoose-mixed-functions/issues"
+  },
+  "homepage": "https://github.com/spearmootz/mongoose-mixed-functions#readme"
+}
