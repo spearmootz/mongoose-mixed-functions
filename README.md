@@ -9,11 +9,7 @@ Applies a getter and setter so that you can define both statics and methods at o
 
 # Usage
 
-## On every model
-    const mongoose = require('mongoose');
-    mongoose.plugin(require('mongoose-mixed-functions'));
-
-## On a particular model
+## Must be applied to each schema you want
     const mongoose = require('mongoose');
     let Schema = mongoose.Schema;
 
