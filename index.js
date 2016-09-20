@@ -3,7 +3,9 @@ module.exports = (schema) => {
     schema.mixedFunction = function (name, func) {
         schema.statics[name] = func;
         schema.methods[name] = function () {
-            return func(this, ...arguments);
+            var args = [].slice.call(arguments);
+            args.unshift(this);
+            return func.apply(null, args);
         };
 
         return true;
