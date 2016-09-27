@@ -1,5 +1,5 @@
 # mongoose-mixed-functions
-Allows you to define functions as both static and methods so you dont repeat yourself
+Allows you to define functions as both static and methods so you dont repeat yourself  **Tested for node 6.x.x**
 
 Applies a getter and setter so that you can define both statics and methods at once. <b>Record must be the first parameter when using the statics counterpart</b>
 
